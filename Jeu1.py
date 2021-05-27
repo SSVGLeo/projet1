@@ -3,16 +3,17 @@ from pygame import mixer#Import du module mixer venant de pygame permettant de j
 import os               #Import du module os.
 import random           #Import du module random.
 
+from pygame.constants import FULLSCREEN    #Import du module FULLSCREEN de pygame pour mettre le jeu en grand écran.
+
 mixer.init()  #initialise le module mixer
 pygame.init() #initialise les modules importé de pygame
 
 
 Largeur_fenetre = 1200                     #Variable largeur de la fenetre
-hauteur_fenetre = int(Largeur_fenetre*0.8) #variable hauteur de la fenetre
+hauteur_fenetre = int(Largeur_fenetre0.8) #variable hauteur de la fenetre
 
-fenetre = pygame.display.set_mode((Largeur_fenetre, hauteur_fenetre)) #Création de la fenêtre.
-pygame.display.set_caption('Jeu')                                     #Titre de la fenêtre de jeu.
-
+fenetre = pygame.display.set_mode((Largeur_fenetre, hauteur_fenetre),FULLSCREEN) #Création de la fenêtre. avec ajout de l'argument FULLSCREEN pour mettre en grand écran la fenêtre mais en gardant la taille qui à était défini, soit 1200x(12000.8).
+pygame.display.set_caption('Jeu')
 
 #fréquence d'image/temps
 clock = pygame.time.Clock()     #timer
