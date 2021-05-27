@@ -1,0 +1,36 @@
+Partie faite par Loris:
+Programmation des lignes 0 à 32, lignes 71 à 120, lignes 137 à 537.
+
+
+Partie faite par Léo:
+Les immages de personnage/arrière plan et d'attaque.
+Programmation des lignes 33 à 70, lignes 121 à 136, lignes 538 à 569.
+
+
+
+On n'a pas pu faire tout ce que l'on voulait car on ne savait pas comment. Par exemple on voulait faire un niveau plus développer
+avec des platformes etc. En faisant plusieurs recherche on n'a pas trouvé de moyens simple de le faire.
+Les commentaires explicatifs juste à côté des lignes de codes m'on servit de repères pour éviter de me perdre
+et oublié ce que font certaines fonctions, au fur et à mesure que j'avance dans le programme.
+
+
+Difficulter rencontré:
+_Divers bug et erreur lié à des problèmes de programmations
+_Certaines fonctions ont étaient plus compliquées et plus longue à programmer que d'autres car nous ne
+savions pas par où commencer. Tel que la fonction de l'IA qui a pris beaucoup de temps à programmer.
+_Problème en dehors de la programmation, avec les images utilisées dans les animations des personnages
+qui n'étaient pas forcément à la bonne taille etc.
+
+
+liens ayant aidé:
+https://www.pygame.org/docs/
+https://devdocs.io/pygame/
+https://pygame.readthedocs.io/en/latest/1_intro/intro.html
+https://pygame-gui.readthedocs.io/en/latest/quick_start.html
+https://stackoverflow.com/questions/40899850/pygame-lag-when-blitting-background
+https://stackoverflow.com/questions/23071399/pygame-rect-collision
+https://stackoverflow.com/questions/15963942/using-colliderect-in-pygame
+https://stackoverflow.com/questions/474528/what-is-the-best-way-to-repeatedly-execute-a-function-every-x-seconds
+https://www.pygame.org/docs/ref/sprite.html
+
+
